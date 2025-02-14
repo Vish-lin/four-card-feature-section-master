@@ -1,39 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+
 </head>
+
 <body>
-  <h2 text align="center">Reliable,efficient delivery</h2>
-  <h1 text align="center">Powered by Technology</h1>
-<h3 text align="center"> Our Artificial intelligence powered tools use millions  of project data<br>
-     points to ensure that your project is successful</h3> <br>
+    <main>
+      <div id="Principal">
 
-    <div><h2 text align="center">Team Builder</h2>
-      <p text align="center">scans our talent network to create the<br>
-      optimal team for your project <br><img src="images/icon-team-builder.svg" alt=""></p></div>
+        <div class="Cabeçalho">
+          <header class="Titulo">Reliable, efficient delivery</header> 
+          <header class="Subtitulo">Powered by Technology</header> 
+          <div class="texto">
+            <h1>Our Artificial Intelligence powered tools use millions of project data points 
+            to ensure that your project is successful</h1>
+          </div>
+        </div>
 
-      <section style="float:left; width:60%;">
-        <h2 text align="center">Supervisor</h2>
-        <p text  align="center">Monitors activity to identify project<br>
-          roadblocks<br> <img src="images/icon-supervisor.svg" alt=""></p>
-      </section>
+        <div class="Cards Left">
+          <div class="Card Green">
+            <h2>Supervisor</h2>
+            <p>Monitors activity to identify project roadblocks</p>
+            <img class="image" src="images/icon-supervisor.svg" alt="Supervisor">
+          </div> 
+        </div>
 
-      <section>
-        <aside style="float:right; width:33%">
-        <h2>Calculator</h2>
-        <p>Users data from post projects to provids <br>
-        better delivery estimates <br> <img src="images/icon-calculator.svg" alt=""></p>
-        </aside>
-      </section>
+        <div class="Cards Right">
+          <div class="Card Blue">
+            <h2>Calculator</h2>
+            <p>Uses data from past projects to provide better delivery estimates</p>
+            <img class="image" src="images/icon-calculator.svg" alt="Calculator">
+          </div>
+        </div>
 
-        <nav><h2 text align="center">Karma</h2>
-        <p text align="center">regularly evaluates our talents to ensure <br>
-        quality <br> <img src="images/icon-karma.svg" alt=""></p></nav>
-      
 
+
+      <div class="Cards Central">
+           <div class="Card Red">
+            <h2>Team Builder</h2>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <img class="image" src="images/icon-team-builder.svg" alt="Builder">
+          </div>
+
+          <div class="Card Orange">
+            <h2>Karma</h2>
+            <p>Regularly evaluates our talent to ensure quality</p>
+            <img class="image" src="images/icon-karma.svg" alt="Karma">
+          </div>
+        </div>
+
+        <footer>
+          <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          </p>
+        </footer>
+
+      </div>
+    </main>
 </body>
 </html>
